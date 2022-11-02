@@ -1,0 +1,102 @@
+
+.App {
+  padding: 20px;
+  /* background-color: #555; */
+}
+
+.container-wrapper {
+  background-color: #fff;
+  padding: 20px 20px 10px 20px;
+  width: 600px;
+  margin: 30px auto;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  position: relative;
+}
+
+.header {
+  text-align: center;
+}
+
+.header h1 {
+  margin: 0;
+  padding-bottom: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+input[type="text"] {
+  width: 90%;
+  height: 1.5rem;
+  padding: 3px 5px 3px 5px;
+}
+
+input[type="text"]:focus {
+  border: 3px solid #555;
+}
+
+input[type="checkbox"] {
+  margin-left: 2px;
+  zoom: 1.2;
+  margin: 0 3px 0;
+}
+
+.items {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  width: 90%;
+  padding: 10px;
+  border-bottom: 1px solid black;
+  text-transform: capitalize;
+}
+
+.items li {
+  height: 100%;
+  font-size: 1rem;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50px;
+  height: auto;
+}
+
+.container {
+  margin: 0 auto;
+  width: 91%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #F4fce8;
+  padding: 7px 5px
+}
+
+.container h1 {
+  
+  margin: 0%;
+}
+
+.button {
+  background-color: #F4fce8;
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+} 
+button {
+  background-color: #F4fce8;
+  padding: 3px;
+  border: none;
+}
+
+button:hover {
+  border: 0.5px solid black;
+}
+
+
